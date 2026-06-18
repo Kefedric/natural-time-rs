@@ -1,5 +1,5 @@
 # natural-time-rs
-A Rust command-line implementation of **Natural Time** — the 13 Moon Calendar + 360° solar clock system.
+A Rust command-line implementation of **Natural Time**.
 
 ## About Natural Time
 
@@ -16,14 +16,22 @@ This project is a Rust implementation of the Natural Time concept originally cre
 - Integer and decimal precision support
 
 ## Usage
+```
 nt-rs <latitude> <longitude> [precision]
+```
 
 # Example input
+```
 nt-rs 22.9231 12.2896
-nt-rs 73.0 -20.91 1
+```
 
+```
+nt-rs 73.0 -20.91 1
+```
 # Example output
+```
 014)06)28 100°53 NT-3 DOW3 ↑062° ↓280°
+```
 
 ## License
 This project is licensed under the **GNU General Public License v3.0** (GPLv3).  
