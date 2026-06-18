@@ -38,5 +38,6 @@ This project is licensed under the **GNU General Public License v3.0** (GPLv3).
 You are free to use, modify, and distribute it **as long as your derivatives remain open source** under the same license.
 
 ## Credits & Acknowledgment
-Concept & Original Implementation: [Sylvain441](https://github.com/sylvain441)
+Concept & Original Implementation: [Sylvain441](https://github.com/sylvain441).
+
 Developed by a Rust beginner with heavy assistance from Grok (xAI).
