@@ -1,0 +1,20 @@
+[package]
+name = "natural-time-rs"
+version = "0.2.0"
+edition = "2024"
+authors = ["Kefedric <Kefedric@users.noreply.github.com>"]
+description = "Command line Rust implementation of Natural Time"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/Kefedric/natural-time-rs"
+readme = "README.md"
+keywords = ["natural-time", "13-moon", "solar-time", "astronomy", "calendar"]
+categories = ["date-and-time", "command-line-utilities"]
+
+[[bin]]
+name = "nt-rs"
+path = "src/main.rs"
+
+[dependencies]
+chrono = "0.4"
+solar-calendar-events = "0.2"
+sun = "0.3"
