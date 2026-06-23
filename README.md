@@ -33,6 +33,17 @@ nt-rs 73.0 -20.91 1
 014)06)28 100°53 NT-3 DOW3 ↑062° ↓280°
 ```
 
+# Output format
+In the following order:
+```
+014)06)28 = DATE 
+100°53    = TIME
+NT-3      = TIME DISTANCE FROM GREENWICH
+DOW3      = DAY OF WEEK (3 in this exemple) 
+↑062°     = SUNRISE TIME
+↓280°     = SUNSET TIME
+```
+
 ## License
 This project is licensed under the **GNU General Public License v3.0** (GPLv3).  
 You are free to use, modify, and distribute it **as long as your derivatives remain open source** under the same license.
